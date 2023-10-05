@@ -17,7 +17,6 @@ public class Main {
                 new Book(3, "Жуйка", "М.Козиренко", "Кальварія", 2016, 120, 300.0),
                 new Book(4, "Львів - одне велике ліжко : Оповідання про Львів, час і секс", "Author4", "Кальварія", 2017, 112, 250.0),
                 new Book(5, "Казки Різдва (обидві частини)", "Б.Матіяш", "Видавництво Старого Лева", 2015, 128, 150.0),
-                // додайте більше книг тут
         };
     }
 
@@ -28,7 +27,7 @@ public class Main {
                 System.out.println(book);
             }
         }
-        System.out.println("");
+        System.out.println();
     }
 
     private static void printBooksByPublisher(Book[] books, String publisher) {
@@ -38,7 +37,7 @@ public class Main {
                 System.out.println(book);
             }
         }
-        System.out.println("");
+        System.out.println();
     }
 
     private static void printBooksAfterYear(Book[] books, int year) {
@@ -48,6 +47,6 @@ public class Main {
                 System.out.println(book);
             }
         }
-        System.out.println("");
+        System.out.println();
     }
 }
